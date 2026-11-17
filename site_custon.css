@@ -1,0 +1,34 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #000;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Космический фон */
+        #space {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+
+        /* Заголовок */
+        .title {
+            position: absolute;
+            top: 40px;
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 32px;
+            z-index: 2;
+        }
+
+        /* Контейнер Земли */
+        canvas {
+            display: block;
+        }
